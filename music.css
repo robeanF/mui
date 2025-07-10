@@ -1,0 +1,377 @@
+body{
+    font-family: "Golos Text", Icons;
+    font-size: 14px;
+    color: blue;
+    background-color: white;
+   border-color: blue;
+}
+header{
+    display: inline-block;
+    line-height: 72px;
+    margin-bottom: 20px;
+
+}
+
+.logo {
+  position:relative;
+  width: 15%;
+  margin-left:5px;
+  height: auto;
+  z-index:1000;
+  max-width:100%;
+}
+
+@media (max-width:756px){
+  .logo{
+    width: 20vw;
+    height:auto;
+  }
+  
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.head{
+    text-align: start;
+    position: relative;
+
+
+}
+.click{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+
+.headerobjectswrapper{
+}
+
+.subhead{
+    text-transform: uppercase;
+    border-bottom: 2px solid ;
+    border-top: 2px solid;
+    padding: 12px 0 12px 0;
+
+}
+
+.content{
+    font-size: 0;
+    line-height: 0;
+    word-spacing: -.31em;
+    display: inline-block;
+    margin: 30px 2% 0 2%;
+
+
+}
+
+
+.collumn{
+    font-size: 17px;
+    line-height: 20px;
+    width: 27%;
+    display: inline-block;
+    padding: 0 3%;
+    vertical-align: top;
+    margin-bottom: 50px;
+    transition: all .7s;
+}
+/*
+.collumn + .collumn { 
+  border-left: 1px solid;
+}
+
+*/
+.collumn .headline{
+    text-align: center;
+    line-height: normal;
+    font-family: "Golos Text", Icons;
+    display: block;
+    margin: 0 auto;
+
+
+}
+.collumn .headline.hl1{
+    font-size: 40px;
+  font-weight: 400;
+    padding: 10px 0 10px 0;
+
+}
+
+.collumn .headline.hl2{
+    font-weight: 400;
+    line-height: 2;
+    text-align:center;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+
+.collumn .headline.hl2:before{
+    border-top: 1px solid ;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl2:after{
+    border-bottom: 1px solid;
+    content: '';
+    width: 100px;
+    height: 13px;
+    display: block;
+    margin: 0 auto;
+}
+
+.collumn .headline.hl2 .artist{
+font-size:15px;
+}
+
+.collumn .headline.hl2 .song{
+  font-size: 22px;
+}
+  
+
+.collumn .headline.hl3{
+    font-weight: 400;
+    font-size: 40px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 50px 0 10px 0;
+}
+
+
+.headphones{
+  position:relative;
+  transform: rotate(30deg);
+  height:auto;
+  width:110%;
+  margin-top:30px;
+  margin-left:-40px;
+  margin-bottom:30px;
+  cursor: pointer; 
+  display: block;
+  -webkit-transition-property: all; 
+-webkit-transition-duration: 0.15s; 
+-webkit-transition-timing-function: ease; 
+  
+}
+
+.headphones:hover { 
+transform: scale(1.15) rotate(20deg); 
+
+}
+
+.collumn .headline.hl4{
+    font-weight: 400;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl4:before{
+    border-top: 1px solid;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl4:after{
+    border-bottom: 1px solid;
+    content: '';
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.walkman{
+  position: relative;
+  transform: rotate(3deg);
+  width: auto;
+  height: 55%;
+  max-width: 100%;
+  cursor: pointer; 
+  margin-top:30px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+-webkit-transition-property: all; 
+-webkit-transition-duration: 0.15s; 
+-webkit-transition-timing-function: ease; 
+  
+}
+
+.walkman:hover { 
+transform: scale(1.15); 
+
+}
+
+.favs{
+  line-height: 2;
+  font-size: 18px;
+}
+
+
+
+
+.stack{
+  position: relative;
+  transform: rotate(5deg);
+  height:70%;
+  width:auto;
+  margin-top:30px;
+  margin-bottom: 30px;
+  margin-left:30px;
+  cursor: pointer; 
+  -webkit-transition-property: all; 
+-webkit-transition-duration: 0.15s; 
+-webkit-transition-timing-function: ease; 
+    
+}
+
+.stack:hover { 
+transform: scale(1.15);
+
+}
+
+.collumn .headline.hl5{
+    font-weight: 400; 
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl6{
+    font-weight: 400;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl6:before{
+    border-top: 1px solid;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl6:after{
+    border-bottom: 1px solid;
+    content: '';
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
+.collumn .headline.hl7{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl8{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl9{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl10{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .citation{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 44px;
+    /*font-style: italic;*/
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    margin: 40px 0 40px 0;
+    font-feature-settings: "liga", "dlig";
+
+}
+.collumn .citation:before{
+    border-top: 1px solid;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .citation:after{
+    border-bottom: 1px solid;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .figure {
+	  margin: 0 0 20px;
+}
+.collumn .figcaption{
+	font-style: italic;
+	font-size: 12px;
+}
+.media {
+    -webkit-filter: sepia(80%) contrast(1) opacity(0.8);
+    filter: sepia(80%) grayscale(1) contrast(1) opacity(0.8);
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+/*________________________________________________________________________________________________________________________________*/
+/*MEDIAQUERIES*/
+@media only all and (max-width: 1300px) {
+    .weatherforcastbox{
+        display: none;
+    }
+
+}
+
+/*
+@media only all and (max-width: 1200px) {
+    .collumn{
+        width: 31%;
+    }
+}
+
+*/
+
+
+    @media only all and (max-width: 1200px) {
+    .collumn{
+        width: 41%;
+    }
+
+}
+@media only all and (max-width: 756px) {
+    .collumn{
+        width: 100%;
+    }
+	.collumn + .collumn {
+				border-left: none;
+      	border-bottom: 1px solid;
+	}
+    header{
+        max-width: 320px;
+        font-size: 60px;
+        line-height: 54px;
+        overflow: hidden;
+    }
+
+}

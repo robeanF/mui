@@ -1,0 +1,209 @@
+html{
+  overflow-y:hidden;
+}
+
+body {
+      background-color: Plum ;
+      overflow-x: auto;
+      height:100vh;
+      width: 100%;
+      padding: 0;
+      margin:0;
+}
+
+@media(max-width: 756px){
+  body{
+    height: 90vh;
+  }
+}
+
+  
+
+.return{
+  height:15vh;
+  width:auto;
+}
+
+.logo {
+  position:relative;
+  transform: rotate(-90deg);
+  height: auto;
+  width: 20vw;
+  margin-right:-40px;
+  
+}
+.horizon{
+  max-height:100vh;
+  height: 100%;
+  width:100%;
+  justify-content: start;
+  display: flex;
+  /* width */
+  
+::-webkit-scrollbar {
+  height: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: yellow; 
+  border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: Chartreuse;
+  border-radius: 15px;
+}
+
+}
+
+.cards{
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  display: grid;
+  grid-gap: 1rem;
+  grid-auto-flow: column;
+  grid-auto-columns: calc(100% - 2rem);
+  max-height: 100vh;
+  
+}
+
+.east{
+  position: relative;
+  display: flex;
+  width:100%;
+  justify-content:start;
+  align-items: center;
+  overflow: hidden;
+ 
+}
+
+.direct{
+  position: relative;
+  transform: rotate(-90deg);
+  font-family: "Golos Text", Icons;
+  font-size: 5vh;
+  margin-right:-40px;
+  color: Chartreuse;
+  white-space: nowrap;
+}
+
+.direct2{
+  position: relative;
+  font-family: "Courier New", monospace;
+  font-size: 5vh;
+  color: Chartreuse;
+  margin-right: 180px;
+  white-space: nowrap;
+}
+
+
+.collage{
+  position: relative; 
+  width: auto;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  height: 95%;
+  position:relative;
+  flex-direction: row;
+  justify-content:start;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+
+.gallery{
+  display: flex;
+  position: relative;
+  
+ 
+} 
+.gallery-text{
+  margin-left:250px;
+  line-height:1.5;
+  text-align: center;
+  margin-left:none;
+  transform: rotate(-90deg);
+  font-family: "Golos Text", Icons;
+  font-size: 35px;
+  color: Chartreuse;
+  white-space: nowrap;
+}
+
+.photo-gallery{
+  
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  padding-right: 30px;
+}
+
+.column{
+  display:flex;
+  flex-direction: row;
+  gap:20px;
+}
+
+.photo img{
+  border-radius: 5px;
+  object-fit: cover;
+  width: auto;
+  height:40vh;
+  cursor:pointer;
+}
+
+
+.container .popup{
+  position: fixed;
+  top:0;
+  left:0;
+  background: rgb(0,0,0,0.8);
+  height: 100%;
+  width:100%;
+  z-index: 100;
+  display:none;
+}
+
+.container .popup span{
+  position: absolute;
+  top:0;
+  right:10px;
+  font-size:60px;
+  font-weight: bolder;
+  color:Chartreuse;
+  cursor:pointer;
+  z-index:100;
+}
+
+
+.container .popup img{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width:auto;
+  height:85vh;
+}
+
+@media (max-width:768px){
+  .container .popup img{
+   width:90%;
+   height:auto;
+   z-index:999;
+  }
+  .container .popup .logo-container{
+    display:hidden;
+  }
+  
+  .logo{
+    width:160px;
+    height:auto;
+  }
+}
+
