@@ -1,0 +1,194 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!---- CSS------>
+    <link rel="stylesheet" href="/Books I Read/books.css" />
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
+
+    <!---- JS------>
+    <script src="/Books I Read/books.js" defer></script>
+
+    <title>MUI.books</title>
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.global/de74e40a-a558-41f4-ac6e-5249fdc80b4a/Mui.png?v=1705993559762"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+    <link
+      href="https://fonts.googleapis.com/css?family=Golos Text"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <a class="return" href="/index.html">
+      <img
+        src="https://cdn.glitch.global/de74e40a-a558-41f4-ac6e-5249fdc80b4a/MUISIE.png?v=1702962797973"
+        class="logo"
+        alt="Mui Logo"
+      />
+    </a>
+    <!------
+    <div class = "title">
+       <img 
+          src= "https://cdn.glitch.global/de74e40a-a558-41f4-ac6e-5249fdc80b4a/books%20png.png?v=1706744976171"
+            class= "booktitle"
+          />
+    </div>
+
+  ---->
+
+    <div id="TopWindow" class="window">
+      <div class="title-bar">
+        <div class="title-bar-text">
+          <span style="font-size: 15px"> books!</span>
+        </div>
+      </div>
+
+      <div class="carousel-view">
+        <!-- Left Button 
+        <button id="prev-btn" class="prev-btn">
+          <svg 
+               fill="#000000" 
+               height="40px"
+               width="40px" 
+               version="1.1" id="Layer_1" 
+               xmlns="http://www.w3.org/2000/svg" 
+               xmlns:xlink="http://www.w3.org/1999/xlink" 
+               viewbox="0 0 24 24" 
+               ml:space="preserve">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+            </g><g id="SVGRepo_iconCarrier"> 
+            <polygon points="7,12 7,11 9,11 9,9 11,9 11,21 13,21 13,9 15,9 15,11 17,11 17,12 19,12 19,9 17,9 17,7 15,7 15,5 14,5 14,4 13,4 13,3 11,3 11,4 10,4 10,5 9,5 9,7 7,7 7,9 5,9 5,12 "></polygon> </g></svg>
+          
+        </button>
+
+-->
+        
+        <!-- List Container -->
+        <div id="item-list" class="item-list">
+          <!-- Items -->
+
+          <img
+            src="https://cdn.glitch.global/de74e40a-a558-41f4-ac6e-5249fdc80b4a/81FIfMmYJ3L._AC_UF1000%2C1000_QL80_.jpg?v=1706906746876"
+            alt="severence"
+            onclick="openBook(event, 'severence')"
+            class="item"
+          />
+
+          <img
+            alt="bliss-montage"
+            class="item"
+            onclick="openBook(event, 'blissmontage')"
+            src="https://cdn.glitch.global/de74e40a-a558-41f4-ac6e-5249fdc80b4a/818v9RqgAvL._AC_UF1000%2C1000_QL80_.jpg?v=1706906755965"
+          />
+
+          <img
+            alt="metamorphosis"
+            class="item"
+            src="https://cdn.glitch.global/de74e40a-a558-41f4-ac6e-5249fdc80b4a/71NolPFccdL._SL1200_.jpg?v=1706906732328"
+          />
+
+          <img
+            id="H-mart"
+            class="item"
+            src="https://cdn.glitch.global/de74e40a-a558-41f4-ac6e-5249fdc80b4a/81oCrA7-plL._AC_UF1000%2C1000_QL80_.jpg?v=1706906750970"
+          />
+
+          <img
+            id="norweigan-woods"
+            class="item"
+            src="https://cdn.glitch.global/de74e40a-a558-41f4-ac6e-5249fdc80b4a/61%2BOx2BoLrL._SL1000_.jpg?v=1706906726834"
+          />
+
+          <img
+            id="animal-farm"
+            class="item"
+            src="https://cdn.glitch.global/de74e40a-a558-41f4-ac6e-5249fdc80b4a/9789356569058.jpg?v=1706932797932"
+          />
+        </div>
+
+        <!-- Right Button 
+        <button id="next-btn" class="next-btn">
+          <svg fill="#000000" 
+               height="40px" 
+               width="40px" 
+               version="1.1" 
+               id="Layer_2" 
+               xmlns="http://www.w3.org/2000/svg" 
+               xmlns:xlink="http://www.w3.org/1999/xlink" 
+               viewbox="0 0 24 24" 
+               xml:space="preserve">
+            <g id="SVGRepo_bgCarrier2" 
+               stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier3" 
+               stroke-linecap="round" stroke-linejoin="round">
+            </g><g id="SVGRepo_iconCarrier4"> 
+            <polygon points="17,12 17,13 15,13 15,15 13,15 13,3 11,3 11,15 9,15 9,13 7,13 7,12 5,12 5,15 7,15 7,17 9,17 9,19 10,19 10,20 11,20 11,21 13,21 13,20 14,20 14,19 15,19 15,17 17,17 17,15 19,15 19,12 "></polygon> </g></svg>
+        </button>
+      </div>
+    </div>
+
+-->
+
+    <div>
+      <div id="BottomWindow" class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">
+            <span style="font-size: 15px"> Review!! </span>
+          </div>
+        </div>
+
+        <div id="severence" class="SmallWindow">
+          <div class="largebook">
+            <img
+              src="https://cdn.glitch.global/de74e40a-a558-41f4-ac6e-5249fdc80b4a/81FIfMmYJ3L._AC_UF1000%2C1000_QL80_.jpg?v=1706906746876"
+              class="bookicon"
+            />
+          </div>
+
+          <div class="booktitle">
+            <h2>SEVERANCE</h2>
+
+            <p>by Ling Ma</p>
+          </div>
+          
+          <div class="review">
+            <p>
+              Severance is a dystopian novel that gives fictional representation to a Chinese American female protagonist, but at its core it is a commentary on human capital and the ever-so-common internal conflict of compromising values, morals, and passions in order to gain financial security in a capitalistic society. 
+<br><br>
+              The book follows Candace Chen, the daughter of late Chinese immigrants with a knack for street photography. Candace finds herself as an employee at a publishing firm who establishes relations with overseas factories in China to handle the production of Bibles. Ultimately, the pursuit for financial stability – motivated in part by familial values – positions Candace in a job where her daily routine includes the exploitation of Chinese factory workers for cheap labor and functioning under the corporate interests of the firm, forgoing photography and other passions. Meanwhile, Shen Fever, a fungal infection that causes the diseased to enter a never-ending loop of repeating the same insignificant and mundane task until your eventual death, surfaces and slowly reaches pandemic proportions until Candace is only one of the few left uninfected and must survive in a post-apocalyptic world. 
+
+<br><br>
+              The telling of Shen Fever is eerily prophetic of the Covid-19 pandemic (Severance was published two years prior to Covid), but it is also a standin for our capitalistic society that breeds a working force that does not require individual thinking or creativity. Instead, it thrives off of employees doing the same dull routine day-in-day-out never questioning the status quo and always working towards economic gain. This book forces you to confront what you believe human capital should be. Should it be knowledge, skills, and labor that furthers the goals of capitalism? Or should it be in service of your own passions and puts forth the vision that you want for society? 
+            </p>
+          </div>
+        </div>
+
+        <!--
+        <div id="animalfarm" class="SmallWindow">
+          <div class="largebook">
+            <img
+              src="https://cdn.glitch.global/de74e40a-a558-41f4-ac6e-5249fdc80b4a/81FIfMmYJ3L._AC_UF1000%2C1000_QL80_.jpg?v=1706906746876"
+              class="bookicon"
+            />
+          </div>
+          <div class="booktitle">
+            <h2>ANIMAL FARM</h2>
+
+            <p>by George Orwell</p>
+          </div>
+     </div>
+-->
+      </div>
+    </div>
+  </body>
+</html>
