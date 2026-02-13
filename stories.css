@@ -123,6 +123,7 @@ button{
   font-family: "Golos Text", Icons;
   font-style: normal;
   font-weight: 400;
+  font-size: 20px;
   letter-spacing: 3px;
   transform: translatex(-50%);
   height: 85%;
