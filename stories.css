@@ -176,6 +176,10 @@ button{
   
 }
 
+.title-bar{
+  float:left;
+}
+
 
 @media (max-width:756px){
   #BottomWindow{
