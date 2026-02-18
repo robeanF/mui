@@ -132,11 +132,10 @@ button{
   color: black;
   text-align: left;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 35px;
 }
 
 .review{
-  padding: 15px;
   display:flex;
 }
 
