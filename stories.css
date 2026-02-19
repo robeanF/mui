@@ -107,18 +107,17 @@ button{
   position: fixed;
   display: flex;
   left: 20%;
-  top:10%;
+  top:5%;
   text-align: center;
   justify-content: center;
   align-items: center;
   padding: none;
-  margin-left: 10px;
 }
 
 .SmallWindow{
   overflow-y:scroll;
   overflow-x:none;
-  margin: 20px;
+  margin: none;
   position: relative;
   display: block;
   font-family: "Golos Text", Icons;
@@ -132,7 +131,7 @@ button{
   color: black;
   text-align: left;
   flex-wrap: wrap;
-  padding: 35px;
+  padding: none;
 }
 
 .review{
