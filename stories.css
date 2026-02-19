@@ -117,7 +117,7 @@ button{
 .SmallWindow{
   overflow-y:scroll;
   overflow-x:none;
-  margin: none;
+  margin: 10px;
   position: relative;
   display: block;
   font-family: "Golos Text", Icons;
@@ -131,7 +131,7 @@ button{
   color: black;
   text-align: left;
   flex-wrap: wrap;
-  padding: none;
+  padding: 15px;
 }
 
 .review{
@@ -179,7 +179,7 @@ button{
   float:left;
 }
 
-
+/* ---
 @media (max-width:756px){
   #BottomWindow{
    width: 85vw; 
@@ -192,6 +192,7 @@ button{
     height:25%;
   }
 }
+---*/
 
 
 
