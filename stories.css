@@ -119,7 +119,7 @@ button{
   overflow-x:none;
   margin: 10px;
   position: relative;
-  display: block;
+  display: none;
   font-family: "Golos Text", Icons;
   font-style: normal;
   font-weight: 400;
@@ -132,6 +132,12 @@ button{
   text-align: left;
   flex-wrap: wrap;
   padding: 15px;
+}
+
+
+
+#Chris {
+  display: block;
 }
 
 .review{
