@@ -157,7 +157,7 @@ button{
 
 
 .largebook{
-  width: 100%;
+  width: 50%;
   margin-bottom: 20px;
 }
 
@@ -181,20 +181,7 @@ button{
   float:left;
 }
 
-/* ---
-@media (max-width:756px){
-  #BottomWindow{
-   width: 85vw; 
-  }
-  .smallwindow{
-    text-align: center;
-  }
-  .bookicon{
-   
-    height:25%;
-  }
-}
----*/
+
 
 
 
