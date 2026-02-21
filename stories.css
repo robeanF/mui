@@ -156,14 +156,10 @@ button{
 }
 
 
-.largebook{
-  width: 50%;
-  margin-bottom: 20px;
-}
 
 .largebook img{
-  height: 60%;
-  width: auto;
+  height: auto;
+  width: 25%;
   position: relative;
   display:inline-block;
   margin:25px;
