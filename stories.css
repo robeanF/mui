@@ -71,7 +71,7 @@ button{
   height: 80%; 
   width: 75%;
   scroll-behavior: smooth;
-  overflow-x:hidden;
+  
   overflow-y:auto;
   background-color:white;
   -ms-overflow-style:none;
