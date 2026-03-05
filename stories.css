@@ -180,6 +180,9 @@ button{
     margin:5px;
     padding:5px;
   }
+  .SmallWindow{
+    font-size: 15px;
+  }
 }
   
 
