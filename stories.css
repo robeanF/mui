@@ -91,8 +91,8 @@ button{
     height:auto;
     padding-top:20px;
   padding-bottom:20px;
-    padding-left:10px;
-  padding-right:10px;
+    padding-left:auto;
+  padding-right:auto;
     width:75%;
 }
 
