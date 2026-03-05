@@ -130,7 +130,7 @@ button{
   padding: 25px;
 }
 
-h2{
+.name{
   font-size:30px;
 }
 
@@ -186,7 +186,7 @@ h2{
   .SmallWindow{
     font-size: 15px;
   }
-  h2{
+  .name{
   font-size:23px;
 }
 
