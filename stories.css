@@ -173,6 +173,13 @@ button{
   float:left;
 }
 
+@media(max-width:756px){
+  .largebook img{
+    height: 200px;
+    width:auto;
+  }
+}
+  
 
 
 
