@@ -173,7 +173,7 @@ button{
   float:left;
 }
 
-@media(max-width:756px){
+@media(max-width:850px){
   .largebook img{
     height: 200px;
     width:auto;
