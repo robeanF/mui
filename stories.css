@@ -183,6 +183,9 @@ button{
   .SmallWindow{
     font-size: 15px;
   }
+  .name{
+    fontsize:22px;
+  }
 }
   
 
