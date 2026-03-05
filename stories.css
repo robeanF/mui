@@ -175,8 +175,10 @@ button{
 
 @media(max-width:850px){
   .largebook img{
-    height: 200px;
+    height: 250px;
     width:auto;
+    margin:5px;
+    padding:5px;
   }
 }
   
