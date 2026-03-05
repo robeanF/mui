@@ -183,7 +183,7 @@ button{
   .SmallWindow{
     font-size: 15px;
   }
-  .name{
+  h2{
     font-size:25px;
   }
 }
